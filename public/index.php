@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="module" src="https://assets.player.radio/latest/buttons.js"></script>
+<script nomodule defer src="https://assets.player.radio/latest/buttons.legacy.js"></script>
+<link rel="stylesheet" href="https://assets.player.radio/latest/buttons.css" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113345163-12"></script>
   <script>
