@@ -1080,6 +1080,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById("barplayer").style.opacity = "1";
   });
   </script>
+<!--
 <script src="https://cdn.jwplayer.com/libraries/UcORbsDW.js"></script>
 
 
@@ -1152,7 +1153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   </script>
-
+-->
   <script>
   function on() {
     //document.getElementById("historique").style.display = "block";
