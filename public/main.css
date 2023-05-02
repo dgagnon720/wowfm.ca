@@ -1,0 +1,326 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/header-background.jpg");
+  height: 100%;
+}
+
+.bgimg-wow {
+  background-image: url('images/header-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+.logoTOP {
+position: absolute;
+z-index: 1000;
+width: 100%;
+top: 30px;
+max-width: 300px;
+}
+
+#castTOP  {
+display: none;
+}
+
+.icon-cast {
+position: absolute;
+z-index: 1500;
+width: 100%;
+right: 15px;
+top: 20px;
+max-width: 25px;
+}
+
+#versionTOP  {
+display: block;
+}
+
+.versiontop {
+position: absolute;
+z-index: 1500;
+right: 5px;
+top: 5px;
+font-size: 12px;
+color: white;
+opacity: 30%;
+}
+
+.svg-cast {
+background-image: url(images/cast.svg);
+}
+
+.svg-cast:hover,
+.svg-cast:focus {
+  filter: invert(24%) sepia(81%) saturate(7379%) hue-rotate(317deg) brightness(90%) contrast(110%);
+}
+
+.divOver {
+
+position: absolute;
+z-index: 1005;
+width: 100%;
+height: 100%;
+/*background: rgba(10, 150, 10, .6);*/
+}
+
+.logoSlogan {
+top: 150px;
+margin: auto;
+position: relative;
+z-index: 1006;
+max-width: 80%;
+/*background: rgba(10, 150, 10, .6);*/
+}
+
+.logoSloganMobile {
+top: 150px;
+  }
+
+
+  .overIcon {
+position: absolute;
+z-index: 10050;
+left: 40px;
+    }
+
+
+
+.logoSlogan img {
+max-width: 100%;
+}
+
+
+#barplayer {
+  overflow: hidden;
+  background-color: #2c1034;
+  z-index: 10003;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+  opacity: 1;
+  font-weight: bold;
+  animation: mymove 1s;
+  animation-timing-function: ease-in-out;
+}
+
+#barplayer a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#barplayer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#barplayer a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#player {
+
+  }
+
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.enDirect {
+  margin-top : 25px;
+}
+
+.auCentre {
+  margin-top : 25px;
+  margin: auto;
+  width: 80%;
+  min-width: 400px
+}
+
+
+
+@keyframes mymove {
+from {bottom: -100px; opacity: 0;}
+to {bottom: 0px; opacity: 1;}
+}
+
+.buttons{
+  max-height: 50px;
+  background-color: red;
+  fill: black;
+}
+
+
+.icon {
+  display: inline-block;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.iconPetit {
+  display: inline-block;
+  margin-top: 35px;
+  margin-right: 35px;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+.icon-play {
+  background-image: url(images/play.svg);
+
+}
+
+.icon-play:hover,
+.icon-play:focus {
+  filter: invert(24%) sepia(81%) saturate(7379%) hue-rotate(317deg) brightness(90%) contrast(110%);
+}
+
+.icon-pause {
+  background-image: url(images/pause.svg);
+
+}
+
+.icon-pause:hover,
+.icon-pause:focus {
+  filter: invert(24%) sepia(81%) saturate(7379%) hue-rotate(317deg) brightness(90%) contrast(110%);
+}
+
+.icon-up {
+  background-image: url(images/up.svg);
+
+}
+
+.icon-up:hover,
+.icon-up:focus {
+  filter: invert(24%) sepia(81%) saturate(7379%) hue-rotate(317deg) brightness(90%) contrast(110%);
+}
+
+.slogan img{
+width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -500px;
+position:relative;
+z-index: 1000;
+
+  }
+
+  #upPub {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 50%;
+ 	 max-width: 600px;
+ 	 bottom: 0px;
+ 	 left: 20px;
+    z-index: 10005;
+    cursor: pointer;
+  	animation: upPub 2s;
+  }
+
+
+
+  @keyframes upPub {
+    from {bottom: -200px;}
+    to {bottom: 0px;}
+  }
+
+
+  #historique {
+    position: fixed;
+  	bottom: -1000px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44,16,52,0.85);
+    z-index: 10004;
+
+  }
+
+  @keyframes historique {
+    from {bottom: -1000px;}
+    to {bottom: 0px;}
+  }
+
+  @keyframes historiqueBack {
+    from {bottom: 0px;}
+    to {bottom: -1000px;}
+  }
+
+
+  #closeHistorique {
+       line-height: 20px;
+       width: 18px;
+       font-size: 18pt;
+       font-family: arial;
+       margin-top: 1px;
+       margin-right: 2px;
+       position:absolute;
+       top:20px;
+       right:20px;
+  		 color: white;
+  		 z-index: 10006;
+   }
+
+   .pubAtedra {
+     position:absolute;
+     right: 50px;
+     margin-top: 25px;
+     max-width: 100%;
+     z-index:99999;
+     }

@@ -1,0 +1,45 @@
+OWNERDOMAIN=rncmedia.ca
+MANAGERDOMAIN=m32.media
+improvedigital.com, 1653, RESELLER
+pubmatic.com, 156439, RESELLER
+pubmatic.com, 154037, RESELLER
+adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
+axonix.com, 57264, RESELLER
+admanmedia.com, 43, RESELLER
+smartadserver.com, 3353, DIRECT, 060d053dcf45cbf3
+smartadserver.com, 3353-OB, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4071, DIRECT, 060d053dcf45cbf3
+smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
+rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
+verve.com, 15503, RESELLER, 0c8f5958fc2d6270
+openx.com, 537149888, RESELLER, 6a698e2ec38604c6
+loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
+xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
+contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
+rhythmone.com, 2564526802, RESELLER, a670c89d4a324e47
+pubnative.net, 1006576, RESELLER, d641df8625486a7b
+appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
+rubiconproject.com, 23294, RESELLER, 0bfd66d529a55807
+advertising.com, 28612, RESELLER
+yahoo.com, 55212, DIRECT, e1a5b5b6e3255540
+aol.com, 55212, DIRECT, e1a5b5b6e3255540
+pubmatic.com, 158604, RESELLER, 5d62403b186f2ace
+indexexchange.com, 188139, RESELLER, 50b1c356f2c5c8fc
+smaato.com, 1100047713, RESELLER, 07bcf65f187117b4
+openx.com, 540274407, RESELLER, 6a698e2ec38604c6
+33across.com, 0013300001kQj2HAAS, RESELLER, bbea06d9c4d2853c
+sharethrough.com, ozkPECkT, DIRECT, d53b998a7bd4ecd2
+google.com, pub-1847030151454431, RESELLER, f08c47fec0942fa0
+m32connect.com, 1110, DIRECT
+m32.media, 1110, DIRECT
+appnexus.com, 2437, DIRECT, f5ab79cb980f11d1
+yahoo.com, 56566, RESELLER, e1a5b5b6e3255540
+smartadserver.com, 1772, RESELLER
+rubiconproject.com, 23716, RESELLER, 0bfd66d529a55807
+tremorhub.com, 030lb-bps80, RESELLER, 1a4e959a1b50034a
+telaria.com, 030lb-bps80, RESELLER, 1a4e959a1b50034a
+freeskreen.com, 178, DIRECT, fe119a6acfd19070
+triplelift.com, 12477-EB, DIRECT, 6c33edb13117fd86
+indexexchange.com, 184884, DIRECT, 50b1c356f2c5c8fc
+pubmatic.com, 158605, DIRECT, 5d62403b186f2ace
+rubiconproject.com, 23292, RESELLER, 0bfd66d529a55807
