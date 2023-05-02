@@ -51,51 +51,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
 
-<!-- SECTION RADIOPLAYER -->
-<link
-  rel="preload"
-  as="font"
-  crossorigin
-  type="font/woff2"
-  href="https://assets.player.radio/latest/assets/sintony-v7-latin-700.woff2"
-/>
-<link
-  rel="preload"
-  as="fetch"
-  crossorigin="use-credentials"
-  href="locales/fr-CA/translation.json"
-/>
-<link rel="preconnect" href="https://mapi.radioplayer.cloud/api/ca/" />
-<link rel="preconnect" href="https://core-search.radioplayer.cloud/124/qp/" crossorigin="use-credentials" />
-<link rel="icon" type="image/png" href="assets/favicon.png" />
-<script
-  type="module"
-  src="https://assets.player.radio/latest/radioplayer.js"
-></script>
-<script
-  nomodule
-  defer
-  src="https://assets.player.radio/latest/radioplayer.legacy.js"
-></script>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Radioplayer web player" />
-<title> - Radioplayer</title>
-<style>
-  [data-widget-radioplayer] {
-      width: 100vw;
-      height: 100vh;
-      left: 0;
-      top: 0;
-      position: absolute;
-  }
-</style>
-<link
-  rel="stylesheet"
-  href="https://assets.player.radio/latest/radioplayer.css"
-/>
-<!-- FIN SECTION RADIOPLAYER -->
-
 </head>
 <body onload="playershow()" id="header-wrap">
   <!-- Google Tag Manager (noscript) -->
@@ -1113,7 +1068,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
   <!-- Footer Section End -->
 
-<!--
 <?php include 'inc/player.php';
 
 
@@ -1212,7 +1166,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById("historique").style.bottom = "-2000px";
   }
   </script>
--->
 <audio controls>
   <source src="https://stream.wow971.ca/chlx.mp3" type="audio/mpeg">
 </audio>
