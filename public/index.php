@@ -50,7 +50,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
-
 </head>
 <body onload="playershow()" id="header-wrap">
   <!-- Google Tag Manager (noscript) -->
@@ -1068,6 +1067,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
   <!-- Footer Section End -->
 
+
 <?php include 'inc/player.php';
 
 
@@ -1075,43 +1075,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ?>
 
 
+
+
+
   <script>
   window.addEventListener("pageshow", function() {
     document.getElementById("barplayer").style.opacity = "1";
   });
   </script>
-  <script src="https://cdn.radiantmediatechs.com/rmp/7.11.6/js/rmp.min.js"></script>
-<!--
-<script src="https://cdn.jwplayer.com/libraries/UcORbsDW.js"></script>
 
--->
+  <script src="https://cdn.jwplayer.com/libraries/UcORbsDW.js"></script>
+
+
   <script type="text/JavaScript">
         var player = jwplayer("JWplayer");
         var playorpause = false;
 
-        //player.setup({
-        //  "playlist": [{
-        //          "file": "https://stream.wow971.ca/chlx.mp3"
-        //  }],
-        //    controls: false
-        //});
-        cont settings = {
-          licenseKey: 'b2J3dGdmam1pZEAxNjY1NDk0',
-          src: {
-            m4a: 'https://stream.wowfm.ca/cftx.aac',
-            mp3: 'https://stream.wowfm.ca/cftx.mp3'
-          }
-          width: 640,
-          height: 360,
-          audioOnlyIcecast: true,
-          audioOnly: true,
-          audioOnlyUseVideoLayout: true,
-          ads: true,
-          adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21658289790,22170858931/wowfm&description_url=https%3A%2F%2Fwowfm.ca%2F&url=https://wowfm.ca/&tfcd=0&npa=0&ad_type=audio_video&sz=640x480&vpa=click&gdfp_req=1&output=vast&unviewed_position_start=1&env=instream&max_ad_duration=30000&vpos=preroll&vpmute=0&impl=s&ad_rules=1&correlator=__timestamp__'
-        }
-        const elementID = 'JWplayer';
-        const jwplayer = new RadiantMP(elementID);
-        jwplayer.init(settings);
+        player.setup({
+          "playlist": [{
+                  "file": "https://stream.wow971.ca/chlx.mp3"
+          }],
+            controls: false
+        });
+
         var playBtn = document.getElementById('JWplay');
         var countpub = 0;
 
@@ -1184,6 +1170,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById("historique").style.bottom = "-2000px";
   }
   </script>
+
 
   <script src="js/jquery-min.js"></script>
   <script src="js/popper.min.js"></script>
