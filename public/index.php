@@ -1293,9 +1293,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById("historique").style.bottom = "-2000px";
   }
   </script>
-<audio controls>
-  <source src="https://stream.wow971.ca/chlx.mp3" type="audio/mpeg">
-</audio>
 
   <script src="js/jquery-min.js"></script>
   <script src="js/popper.min.js"></script>
