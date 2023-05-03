@@ -1080,6 +1080,132 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById("barplayer").style.opacity = "1";
   });
   </script>
+  <script src="https://cdn.radiantmediatechs.com/rmp/7.11.6/js/rmp.min.js"></script>
+  <script>
+  var src = {
+    mp3: 'https://stream.wowfm.ca/cftx.mp3',
+    m4a: 'https://stream.wowfm.ca/cftx.aac'
+  };
+ 
+  const getSrc = document.getElementById('getSrc');
+  const getSrcResult = document.getElementById('getSrcResult');
+  getSrc.textContent = 'getSrc()';
+
+  const srcChanged = document.getElementById('srcChanged');
+
+  const debugLog = true;
+  const _log = function (data) {
+    if (debugLog && data) {
+      console.log(data);
+    }
+  };
+
+  // player settings
+
+  const settings = {
+    licenseKey: 'b2J3dGdmam1pZEAxNjY1NDk0',
+    src: src,
+    width: 540,
+    height: 540,
+    srcChangeAutoPlay: true,
+    audioOnlyIcecast: true,
+    audioOnly: true,
+    // Specifies we want to use video layout for audio-only content
+    audioOnlyUseVideoLayout: true,
+    // We pass video ads data to the player
+    ads: true,
+    // We can use Google IMA (default) or rmp-vast to display video ads with audio-only content
+    // adParser: 'rmp-vast',
+    //adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21658289790,22170858931/rncmediatest&description_url=https%3A%2F%2Fbpmsports.ca%2F&tfcd=0&npa=0&ad_type=audio_video&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=instream&impl=s&correlator=__timestamp__',
+    //adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=__timestamp__',
+    adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21658289790,22170858931/919sports&description_url=https%3A%2F%2Fbpmsports.ca%2F&url=https://bpmsports.ca/&tfcd=0&npa=0&ad_type=audio_video&sz=640x480&vpa=click&gdfp_req=1&output=vast&unviewed_position_start=1&env=instream&max_ad_duration=30000&vpos=preroll&vpmute=0&impl=s&ad_rules=1&correlator=__timestamp__',
+    contentMetadata: {
+      poster: [
+        'https://bpmsports.ca/wp-content/uploads/2022/09/jrq0izvvwjxslyilf228bsh8rp9v-540x540.jpg'
+      ]
+    },
+    adBlockerDetection: true,
+    adBlockerDetectedPreventPlayback: true,
+    // Our Google Analytics settings
+    gaTrackingId: 'UA-66939708-1',
+    gaCategory: 'Player Live',
+    gaLabel: 'Player WOW FM',
+    gaEvents: ['ready', 'playerstart', 'bufferstalled', 'ended', 'error', 'adimpression', 'adplayerror', 'adloaderror']
+  };
+  const elementID = 'rmp';
+  const rmp = new RadiantMP(elementID);
+  const rmpContainer = document.getElementById(elementID);
+
+  const _getTime = function () {
+    return Math.round(performance.now());
+  };
+
+  const wireUI = function () {
+    _log('player ready - wire UI ');
+    rmpContainer.removeEventListener('ready', wireUI);
+    // click interactions
+    document.getElementById('src_mtl').addEventListener('click', () => {
+      src = {
+        mp3: 'https://stream.bpmsports.ca/cklx.mp3',
+        m4a: 'https://stream.bpmsports.ca/cklx.aac'
+      };
+      if (rmp.getSrc() == src) {
+        _log('this src is already loaded - exit');
+        return;
+      }
+      rmp.setSrc(src);
+      rmp.play();
+    });
+    document.getElementById('src_qc').addEventListener('click', () => {
+      src = {
+        mp3: 'https://stream0.bpmsports.ca/chxx.mp3',
+        m4a: 'https://stream0.bpmsports.ca/chxx.aac'
+      }
+      if (rmp.getSrc() == src) {
+        _log('this src is already loaded - exit');
+        return;
+      };
+      rmp.setSrc(src);
+      rmp.play();
+    });
+    document.getElementById('src_gat').addEventListener('click', () => {
+      src = {
+        mp3: 'https://stream0.bpmsports.ca/cftx.mp3',
+        m4a: 'https://stream0.bpmsports.ca/cftx.aac'
+      };
+      if (rmp.getSrc() == src) {
+        _log('this src is already loaded - exit');
+       return;
+      }
+      rmp.setSrc(src);
+      rmp.play();
+    });
+    document.getElementById('src_ext').addEventListener('click', () => {
+      src = {
+        mp3: 'https://cdn001.podboxx.com/audios/38vnwxem5bjg4i8gsl1m5mv0wl3y.mp3',
+        m4a: 'https://cdn001.podboxx.com/audios/38vnwxem5bjg4i8gsl1m5mv0wl3y.mp3'
+      };  
+      if (rmp.getSrc() == src) {
+        _log('this src is already loaded - exit');
+        return;
+      }
+      rmp.setSrc(src);
+      rmp.play();
+    });
+    document.getElementById('rmp_stop').addEventListener('click', () => {
+      rmp.destroy();
+    });
+    getSrc.addEventListener('click', () => {
+      getSrcResult.textContent = rmp.getSrc();
+    });
+  };
+
+  // on ready event we wire UI
+  rmpContainer.addEventListener('ready', wireUI);
+
+  // init player after we have attached our listener and set our UI
+  rmp.init(settings);
+</script>
 <!--
 <script src="https://cdn.jwplayer.com/libraries/UcORbsDW.js"></script>
 
