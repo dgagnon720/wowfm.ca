@@ -219,6 +219,13 @@ to {bottom: 0px; opacity: 1;}
   background-size: cover;
 }
 
+.playButton {
+  height:75px;
+  width:50px;
+  background: none;
+  border:none;
+}
+
 .icon-play {
   background-image: url(../images/play.svg);
 
@@ -346,4 +353,8 @@ visibility: hidden;
 
 .hideEcrivezNous {
 display: none;
+}
+
+.masque {
+  display: none;
 }

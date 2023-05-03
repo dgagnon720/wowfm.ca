@@ -86,39 +86,22 @@ if ($time >= "1200" && $time < "1900" && $jour == "0") {
 
 <div id="barplayer" class="sticky">
 
-  <div class="container-large d-none d-md-block">
+
+
+  <div class="container-large d-sm-block d-md-block">
     <div class="row">
       <div class="col-3 text-white">
             <div id="image">
-                <img class="float-right" src="images/<?php echo $image; ?>" width="100" height="100">
+              <div id="play" class="play playButton overIcon">
+                <div id="bplay2" class="icon icon-play float-right"></div>
+              </div>
+              <div id="pause" class="pause playButton overIcon masque" >
+                <div id="bplay2" class="icon icon-pause float-right"></div>
+              </div>
+              <img class="float-left" src="images/<?php echo $image; ?>" width="100" height="100">
             </div>
       </div>
-      <div class="col-1 ext-white">
-        <div id="JWplay" onclick="JWplaystop()" class="icon icon-play float-right"></div></div>
-      <div class="col-6 text-white">
-          <div style="margin-top:15px;">
-              <span class="font-weight-bold text-white"><?php echo $show; ?></span><br>
-              <span class="font-weight-light text-muted"><?php echo $horaire; ?></span><br>
-              <span class="font-weight-light text-muted" style="text-decoration: underline;">À venir: </span><span class="font-weight-medium text-muted"><?php echo $nextshow; ?></span><p>
-                <!--<span class="font-weight-bold text-white">Dark Horse</span><br>
-              <span class="font-weight-light text-white">Katy Perry</span> -->
-          </div>
-      </div>
-      <!-- <div class="col-2"><div id="historiqueUp" onclick="on()" class="iconPetit icon-up float-right"></div></div>  -->
-    </div>
-  </div>
 
-
-  <div class="container-large d-sm-block d-md-none">
-    <div class="row">
-      <div class="col-2 text-white">
-            <div id="image">
-              <div id="JWplay2" onclick="JWplaystop()" class="overIcon icon icon-play float-right"></div>
-                <img class="float-left" src="images/<?php echo $image; ?>" width="100" height="100">
-            </div>
-      </div>
-      <div class="col-1 text-white">
-        </div>
       <div class="col-8 text-white">
           <div style="margin-top:15px; margin-left:5px;">
             <span class="font-weight-bold text-white"><?php echo $show; ?></span><br>
@@ -129,7 +112,6 @@ if ($time >= "1200" && $time < "1900" && $jour == "0") {
               <span class="font-weight-light text-white">Katy Perry</span> -->
           </div>
       </div>
-
       <!-- <div class="col-2 text-white"><div id="historiqueUp" onclick="on()" class="iconPetit icon-up float-right"></div></div> -->
     </div>
   </div>
