@@ -94,7 +94,7 @@ if ($time >= "1200" && $time < "1900" && $jour == "0") {
             </div>
       </div>
       <div class="col-1 ext-white">
-        <div id="JWplay" onclick="rmp.play()" class="icon icon-play float-right"></div></div>
+        <div id="JWplay" onclick="JWplaystop()" class="icon icon-play float-right"></div></div>
       <div class="col-6 text-white">
           <div style="margin-top:15px;">
               <span class="font-weight-bold text-white"><?php echo $show; ?></span><br>
@@ -113,7 +113,7 @@ if ($time >= "1200" && $time < "1900" && $jour == "0") {
     <div class="row">
       <div class="col-2 text-white">
             <div id="image">
-              <div id="JWplay2" onclick="rmp.play()" class="overIcon icon icon-play float-right"></div>
+              <div id="JWplay2" onclick="JWplaystop()" class="overIcon icon icon-play float-right"></div>
                 <img class="float-left" src="images/<?php echo $image; ?>" width="100" height="100">
             </div>
       </div>
