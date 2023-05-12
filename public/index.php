@@ -192,13 +192,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <?php
 
-      $debut = mktime(0, 0, 0, 5, 30, 2022);
-      $fin = mktime(0, 0, 0, 8, 31, 2022);
+      $debut = mktime(0, 0, 0, 5, 29, 2023);
+      $fin = mktime(0, 0, 0, 8, 31, 2023);
       $dateAbsolu = date("U");
       if ($debut <= $dateAbsolu && $fin >= $dateAbsolu) {
         ?>
       <div class="col-12">
-        <a href="concours_ete2022.php"><img class="img-fluid" src="images/concours_ete.jpg" alt=""></a>
+        <a href="concours_ete2023.php"><img class="img-fluid" src="images/concours_ete2023.jpg" alt=""></a>
       </div>
       <?php
       } else {

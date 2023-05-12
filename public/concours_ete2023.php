@@ -3,9 +3,9 @@
 <head>
   <meta property="og:title" content="Remboursement d'une facture chaque semaine jusqu'à 500$">
   <meta property="og:description" content="Concours WOW 97.1 - WOW paie vos factures!">
-  <meta property="og:image" content="https://wowfm.ca/images/concours_ete.jpg">
+  <meta property="og:image" content="https://wowfm.ca/images/concours_ete2023.jpg">
   <meta property="og:url" content="https://wowfm.ca/concours_ete2023.php">
-  <meta name="twitter:card" content="https://wowfm.ca/images/concours_ete.jpg">
+  <meta name="twitter:card" content="https://wowfm.ca/images/concours_ete2023.jpg">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113345163-12"></script>
   <script>
@@ -208,7 +208,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="col-lg-8 posts-list">
                   <div class="single-post">
                       <div class="feature-img">
-                          <img class="img-fluid" src="images/1920_concours_ete.jpg" alt="">
+                          <img class="img-fluid" src="images/1920_concours_ete2023.jpg" alt="">
                       </div>
 
                       <div class="blog_details">
@@ -250,14 +250,8 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
       <hr>
       <br>
       <a href="https://centredesaubaines.com/"><img class="img-fluid" src="images/concoursete/centredesaubaines.jpg" alt="" width="50%"></a><p>
-      <h4>Hôtel V - Bistro Rumeur </h4>
-      Visitez le site web de Hôtel V : <a href="https://centredesaubaines.com/">centredesaubaines.com</a><br>
-
-      <hr>
-      <br>
-      <a href="https://www.st-hubert.com/"><img class="img-fluid" src="images/concoursete/sthubert.jpg" alt="" width="50%"></a><p>
-      <h4>St-Hubert</h4>
-      Visitez le site web de St-Hubert : <a href="https://www.st-hubert.com/">www.st-hubert.com</a>
+      <h4>Centre des aubaines </h4>
+      Visitez le site web du Centre des aubaines : <a href="https://centredesaubaines.com/">centredesaubaines.com</a><br>
 
       <hr>
       <br>
@@ -267,9 +261,22 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
 
       <hr>
       <br>
+      <a href="https://www.st-hubert.com/"><img class="img-fluid" src="images/concoursete/sthubert.jpg" alt="" width="50%"></a><p>
+      <h4>St-Hubert</h4>
+      Visitez le site web de St-Hubert : <a href="https://www.st-hubert.com/">www.st-hubert.com</a>
+
+
+      <hr>
+      <br>
       <a href="https://transportbond.ca/"><img class="img-fluid" src="images/concoursete/transportbond.jpg" alt="" width="50%"></a><p>
       <h4>Transport Bond</h4>
       Visitez le site web de Transport Bond : <a href="https://transportbond.ca/">transportbond.ca</a>
+
+      <hr>
+      <br>
+      <a href="https://entreprisepcharlebois.com/"><img class="img-fluid" src="images/concoursete/entreprisepcharlebois.jpg" alt="" width="50%"></a><p>
+      <h4>Les Entreprises Pierre Charlebois inc. </h4>
+      Visitez le site web des Entreprises Pierre Charlebois inc.  : <a href="https://entreprisepcharlebois.com/">entreprisepcharlebois.com</a>
 
       <hr>
       <br>
@@ -277,12 +284,12 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
       <h4>Familiprix</h4>
       Visitez le site web de Familiprix : <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab">www.familiprix.com</a>
                  
-
       <hr>
       <br>
-      <a href="https://entreprisepcharlebois.com/"><img class="img-fluid" src="images/concoursete/entreprisepcharlebois.jpg" alt="" width="50%"></a><p>
-      <h4>Les Entreprises Pierre Charlebois inc. </h4>
-      Visitez le site web des Entreprises Pierre Charlebois inc.  : <a href="https://entreprisepcharlebois.com/">entreprisepcharlebois.com</a>
+      <a href="https://www.bmr.ca/fr/la-coop-gracefield"><img class="img-fluid" src="images/concoursete/coopgracefield.jpg" alt="" width="50%"></a><p>
+      <h4>La COOP Gracefield </h4>
+      Visitez le site web de La COOP Gracefield : <a href="https://www.bmr.ca/fr/la-coop-gracefield">www.bmr.ca/fr/la-coop-gracefield</a>
+
     </span>  
 <!--
     <hr>
