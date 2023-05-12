@@ -243,7 +243,7 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
 
       <hr>
       <br>
-      <a href="https://www.chiccooptique.com/"><img class="img-fluid" src="images/concoursete/chiccooptique.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.chiccooptique.com/"><img class="img-fluid" src="images/concoursete/chicco.jpg" alt="" width="50%"></a><p>
       <h4>Lunetterie Chicco Optique </h4>
       Visitez le site web de Lunetterie Chicco Optique  : <a href="https://www.chiccooptique.com/">www.chiccooptique.com</a>
 
