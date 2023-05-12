@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta property="og:title" content="Remboursement d'une facture chaque semaine jusqu'à 250$">
+  <meta property="og:title" content="Remboursement d'une facture chaque semaine jusqu'à 500$">
   <meta property="og:description" content="Concours WOW 97.1 - WOW paie vos factures!">
   <meta property="og:image" content="https://wowfm.ca/images/concours_ete.jpg">
-  <meta property="og:url" content="https://wowfm.ca/concours_ete2022.php">
+  <meta property="og:url" content="https://wowfm.ca/concours_ete2023.php">
   <meta name="twitter:card" content="https://wowfm.ca/images/concours_ete.jpg">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113345163-12"></script>
@@ -189,7 +189,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h1 class="section-title fadeInUp">Cet été, acheter local c'est WOW - 250$ à gagner chaque semaine</h1>
+            <h1 class="section-title fadeInUp">Cet été, acheter local c'est WOW - 500$ à gagner chaque semaine</h1>
           </div>
         </div>
       </div>
@@ -219,7 +219,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           </ul>
                           <p class="excert">
                             Si vous dépensez chez l'un des commerçants participants, textez-nous une photo de votre facture au 819-503-9711<p>
-Nous rembourserons un achat local d'un auditeur jusqu'à concurrence de 250$ chaque semaine !<p>
+Nous rembourserons un achat local d'un auditeur jusqu'à concurrence de 500$ chaque semaine !<p>
 Tirage chaque vendredi parmis toutes les factures reçues !<p>
   <h3>Voici la liste de nos partenaires :</h3>
   <span id="external_link">
@@ -245,7 +245,7 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
       <br>
       <a href="https://www.chiccooptique.com/"><img class="img-fluid" src="images/concoursete/chiccooptique.jpg" alt="" width="50%"></a><p>
       <h4>Lunetterie Chicco Optique </h4>
-      Visitez le site web de Lunetterie Chicco Optique  : <a href="https://www.chiccooptique.com/">www.chiccooptique.com/ </a>
+      Visitez le site web de Lunetterie Chicco Optique  : <a href="https://www.chiccooptique.com/">www.chiccooptique.com</a>
 
       <hr>
       <br>
