@@ -70,10 +70,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <div id="upPub">
-    <div id="JWplayer"></div>
+    <div id="rmplive"></div>
   </div>
 
-  <div id="JWplayer"></div>
+  <div id="rmplive"></div>
 
 
 
@@ -1068,107 +1068,127 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Footer Section End -->
 
 
-<?php include 'inc/player.php';
-
-
-
-?>
-
-
-
-
+<?php include 'inc/player.php';?>
 
   <script>
-  window.addEventListener("pageshow", function() {
-    document.getElementById("barplayer").style.opacity = "1";
-  });
+    window.addEventListener("pageshow", function() {
+      document.getElementById("barplayer").style.opacity = "1";
+    });
   </script>
-
-  <script src="https://cdn.jwplayer.com/libraries/UcORbsDW.js"></script>
-
-
+  <script src="https://cdn.radiantmediatechs.com/rmp/8.0.5/js/rmp.min.js"></script>
   <script type="text/JavaScript">
-        var player = jwplayer("JWplayer");
-        var playorpause = false;
-
-        player.setup({
-          "playlist": [{
-                  "file": "https://stream.wow971.ca/chlx.mp3"
-          }],
-            controls: false
-        });
-
-        var playBtn = document.getElementById('JWplay');
-        var countpub = 0;
-
-        function JWplaystop(){
-            if (playorpause == false) {
-              player.play(true);
-              playorpause = true;
-              document.getElementById("JWplay").classList.remove("icon-play");
-              document.getElementById("JWplay").classList.add("icon-pause");
-              document.getElementById("JWplay2").classList.remove("icon-play");
-              document.getElementById("JWplay2").classList.add("icon-pause");
-              //document.getElementById("castTOP").style.display = "block";
-
-              if (countpub == 0) {
-
-                player.on('adImpression', function(){
-                    upPub()
-                    player.on('adComplete', function(){
-                          downPub()
-                          console.log("Publicité terminée")
-                    });
-                    countpub = 1;
-                    //setTimeout(downPub, 15000);
-                    //	countpub = 1;
-                });
-              }
-            } else {
-                player.pause(true);
-                playorpause = false;
-                document.getElementById("JWplay").classList.remove("icon-pause");
-                document.getElementById("JWplay").classList.add("icon-play");
-                document.getElementById("JWplay2").classList.remove("icon-pause");
-                document.getElementById("JWplay2").classList.add("icon-play");
-                //document.getElementById("castTOP").style.display = "none";
-
-            }
+    // First we must provide a streaming source to the player - in this case an HLS feed
+    const srclive = {
+        mp3: 'https://stream.wow971.ca/chlx.mp3'
+    };
+    // Then we set our player settings
+    const settingslive = {
+        licenseKey: 'b2J3dGdmam1pZEAxNjY1NDk0',
+        src: srclive,
+        // The player will automatically resize itself based on context and those reference width/height values
+        autoHeightMode: true,
+        autoHeightModeRatio: 1.7777777778,
+        fadeInPlayer:true,
+        audioOnly: true,
+        audioOnlyIcecast: true,
+        // Specifies we want to use video layout for audio-only content
+        audioOnlyUseVideoLayout: true,
+        ads: true,
+            adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21658289790,22170858931/wow971&description_url=https%3A%2F%2Fwowfm.cam%2F&tfcd=0&npa=0&ad_type=audio_video&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=',
+            gaTrackingId: 'UA-113345163-12',
+            gaLabel: 'playerLive',
+            gaEvents: ['playerstart', 'bufferstalled', 'error', 'adimpression', 'adplayererror', 'adloaderror', 'adparserloaderror', 'adclick', 'pause'],
+        // Let us select a skin
+        skin: 's1',
+        // Let us add a poster frame to our player
+        contentMetadata: {
+            poster: [
+                '<?php echo $image; ?>'
+            ]
         }
+    };
 
-        function startCast() {
+    // Reference to the player container (id)
+    const elementIDlive = 'rmplive';
 
-          console.log("Cast est en fonction");
-          player.cast();
+    // New Radiant Media Player instance
+    const rmplive = new RadiantMP(elementIDlive);
 
-        }
+    // player container
+    const rmpContainer = document.getElementById(elementIDlive);
 
-        function playershow() {}
+    // log area
+    const logs = document.getElementById('js-api-logs');
+    
+    // methods
+    const play = document.getElementById('play');
+    const _play = () => {
+        rmplive.loadAds('https://pubads.g.doubleclick.net/gampad/ads?iu=/21658289790,22170858931/wow971&description_url=https%3A%2F%2Fwowfm.cam%2F&tfcd=0&npa=0&ad_type=audio_video&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=');
+        rmplive.play();
+        document.getElementById('pause').classList.remove('masque');
+        document.getElementById('play').classList.add('masque');
+    };
+    const pause = document.getElementById('pause');
+    const _pause = () => {
+        rmplive.stop();
+        document.getElementById('play').classList.remove('masque');
+        document.getElementById('pause').classList.add('masque');
+        console.log('manuel stop');
+    };
 
-        function upPub() {
-          document.getElementById("upPub").style.display = "block";
-          document.getElementById("upPub").style.animation = "upPub 1s";
-        }
-        function downPub() {
-          document.getElementById("upPub").style.display = "none";
+    const _stop = () => {
+        rmplive.stop();
+    };
 
-        }
+    const _wireUI = () => {
+        // methods
+        play.addEventListener('click', _play);
+        pause.addEventListener('click', _pause);
+    };
+    
+    // on player ready wireUI
+    const _makeReady = () => {
+        rmpContainer.removeEventListener('ready', _makeReady);
+        _wireUI();
+    };
+    rmpContainer.addEventListener('ready', _makeReady);
 
+    // Listeners
+    rmpContainer.addEventListener('adloaded', () => {
+        upPub();
+        console.log('adloaded');
+    });
+    rmpContainer.addEventListener('adalladscompleted', () => {
+        downPub();
+        console.log('Publicitu00E9 complu00E9tu00E9e');
+    });
+    
+    // Animations
+    function upPub() {
+        document.getElementById("upPub").style.display = "block";
+        document.getElementById("upPub").style.animation = "upPub 1s";
+      }
+    function downPub() {
+        document.getElementById("upPub").style.display = "none";
+    }
+
+    // Initialize player
+    rmplive.init(settingslive);
 
   </script>
 
   <script>
-  function on() {
-    //document.getElementById("historique").style.display = "block";
-    document.getElementById("historique").style.animation = "historique 0.5s";
-    document.getElementById("historique").style.bottom = "0px";
-  }
+    function on() {
+      //document.getElementById("historique").style.display = "block";
+      document.getElementById("historique").style.animation = "historique 0.5s";
+      document.getElementById("historique").style.bottom = "0px";
+    }
 
-  function offhistorique() {
-    //document.getElementById("historique").style.display = "none";
-    document.getElementById("historique").style.animation = "historiqueBack 0.5s";
-    document.getElementById("historique").style.bottom = "-2000px";
-  }
+    function offhistorique() {
+      //document.getElementById("historique").style.display = "none";
+      document.getElementById("historique").style.animation = "historiqueBack 0.5s";
+      document.getElementById("historique").style.bottom = "-2000px";
+    }
   </script>
 
 
