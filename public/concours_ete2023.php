@@ -281,6 +281,18 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
+      <a href="http://www.cuisinesmultidesign.com"><img class="img-fluid" src="images/concoursete/cuisinesmutlidesign.jpg" alt="" width="50%"></a><p>
+      <h4>Cuisine Multi-Design</h4>
+      Visitez le site web de Cuisine Multi-Design : <a href="http://www.cuisinesmultidesign.com">www.cuisinesmultidesign.com</a>
+
+      <hr>
+      <br>
+      <a href="https://www.chico.ca/boutique/chico-boulevard-greber/"><img class="img-fluid" src="images/concoursete/chico.jpg" alt="" width="50%"></a><p>
+      <h4>Boutique d'animaux Chico</h4>
+      Visitez le site web de Boutique d'animaux Chico : <a href="https://www.chico.ca/boutique/chico-boulevard-greber/">www.chico.ca</a>
+
+      <hr>
+      <br>
       <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab"><img class="img-fluid" src="images/concoursete/familiprix3.jpg" alt="" width="50%"></a><p>
       <h4>Familiprix</h4>
       Visitez le site web de Familiprix : <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab">www.familiprix.com</a>
@@ -302,12 +314,6 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
       <a href="https://plomberieoutaouais.com"><img class="img-fluid" src="images/concoursete/plomberieoutaouais.jpg" alt="" width="50%"></a><p>
       <h4>Groupe Plomberie Outaouais</h4>
       Visitez le site web de Groupe Plomberie Outaouais   : <a href="https://plomberieoutaouais.com">"plomberieoutaouais.com"</a>
-
-      <hr>
-      <br>
-      <a href="http://www.cuisinesmultidesign.com"><img class="img-fluid" src="images/concoursete/cuisinesmutlidesign.jpg" alt="" width="50%"></a><p>
-      <h4>Cuisine Multi-Design</h4>
-      Visitez le site web de Cuisine Multi-Design : <a href="http://www.cuisinesmultidesign.com">www.cuisinesmultidesign.com</a>
 
       <hr>
       <br>
