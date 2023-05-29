@@ -218,9 +218,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <li><a href="#"><i class="far fa-comments"></i> Tout l'été</a></li>
                           </ul>
                           <p class="excert">
-                            Si vous dépensez chez l'un des commerçants participants, textez-nous une photo de votre facture au 819-503-9711<p>
-Nous rembourserons un achat local d'un auditeur jusqu'à concurrence de 500$ chaque semaine !<p>
-Tirage chaque vendredi parmis toutes les factures reçues !<p>
+                          Cet été, WOW 97,1 paie vos factures ! 
+Si vous magasinez chez l’une des entreprises locales participantes, envoyez-nous votre facture par photo texto au 819-503-9711 
+Nous rembourserons jusqu’à 500$ chaque semaine !
+<p>
   <h3>Voici la liste de nos partenaires :</h3>
   <span id="external_link">
       <hr>
@@ -289,6 +290,67 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
       <a href="https://www.bmr.ca/fr/la-coop-gracefield"><img class="img-fluid" src="images/concoursete/coopgracefield.jpg" alt="" width="50%"></a><p>
       <h4>La COOP Gracefield </h4>
       Visitez le site web de La COOP Gracefield : <a href="https://www.bmr.ca/fr/la-coop-gracefield">www.bmr.ca/fr/la-coop-gracefield</a>
+    
+      <hr>
+      <br>
+      <a href="https://www.byebyemoving.com"><img class="img-fluid" src="images/concoursete/byebye.jpg" alt="" width="50%"></a><p>
+      <h4>Déménagement Bye Bye</h4>
+      Visitez le site web de Déménagement Bye Bye   : <a href="https://www.byebyemoving.com">www.byebyemoving.com</a>
+
+      <hr>
+      <br>
+      <a href="https://plomberieoutaouais.com"><img class="img-fluid" src="images/concoursete/plomberieoutaouais.jpg" alt="" width="50%"></a><p>
+      <h4>Groupe Plomberie Outaouais</h4>
+      Visitez le site web de Groupe Plomberie Outaouais   : <a href="https://plomberieoutaouais.com">"plomberieoutaouais.com"</a>
+
+      <hr>
+      <br>
+      <a href="http://www.cuisinesmultidesign.com"><img class="img-fluid" src="images/concoursete/cuisinesmutlidesign.jpg" alt="" width="50%"></a><p>
+      <h4>Cuisine Multi-Design</h4>
+      Visitez le site web de Cuisine Multi-Design : <a href="http://www.cuisinesmultidesign.com">www.cuisinesmultidesign.com</a>
+
+      <hr>
+      <br>
+      <a href="https://www.multiluminaire.ca/nos-magasins/magasin-luminaire-gatineau"><img class="img-fluid" src="images/concoursete/multiluminaire.jpg" alt="" width="50%"></a><p>
+      <h4>Multi-Luminaire</h4>
+      Visitez le site web de Multi-Luminaire : <a href="https://www.multiluminaire.ca/nos-magasins/magasin-luminaire-gatineau">www.multiluminaire.ca/nos-magasins/magasin-luminaire-gatineau </a>
+
+      <hr>
+      <br>
+      <a href="https://www.argusmazda.com/"><img class="img-fluid" src="images/concoursete/argusmazda.jpg" alt="" width="50%"></a><p>
+      <h4>Argus Mazda</h4>
+      Visitez le site web de Argus Mazda : <a href="https://www.argusmazda.com/">www.argusmazda.com </a>
+
+      <hr>
+      <br>
+      <a href="https://www.gatineauhonda.com/"><img class="img-fluid" src="images/concoursete/gatineauhonda.jpg" alt="" width="50%"></a><p>
+      <h4>Gatineau Honda</h4>
+      Visitez le site web de Gatineau Honda : <a href="https://www.gatineauhonda.com/">www.gatineauhonda.com </a>
+
+      <hr>
+      <br>
+      <a href="https://www.aylmerkia.com/"><img class="img-fluid" src="images/concoursete/aylmerkia.jpg" alt="" width="50%"></a><p>
+      <h4>Aylmer Kia</h4>
+      Visitez le site web de Aylmer Kia : <a href="https://www.aylmerkia.com/">www.aylmerkia.com </a>
+
+      <hr>
+      <br>
+      <a href="https://www.gatineaukia.com/"><img class="img-fluid" src="images/concoursete/gatineaukia.jpg" alt="" width="50%"></a><p>
+      <h4>Gatineau Kia</h4>
+      Visitez le site web de Gatineau Kia : <a href="https://www.gatineaukia.com/">www.gatineaukia.com </a>
+
+      <hr>
+      <br>
+      <a href="https://matelasdauphin.com/"><img class="img-fluid" src="images/concoursete/matelasdauphin.jpg" alt="" width="50%"></a><p>
+      <h4>Matelas Dauphin</h4>
+      Visitez le site web de Matelas Dauphin : <a href="https://matelasdauphin.com/">www.matelasdauphin.com </a>
+
+      <hr>
+      <br>
+      <a href="https://boutiquetoietmoi.ca/"><img class="img-fluid" src="images/concoursete/boutiquetoietmoi.jpg" alt="" width="50%"></a><p>
+      <h4>Boutique Toi et Moi</h4>
+      Visitez le site web de Boutique Toi et Moi : <a href="https://boutiquetoietmoi.ca/">boutiquetoietmoi.ca</a>
+
 
     </span>  
 <!--
@@ -327,12 +389,6 @@ Tirage chaque vendredi parmis toutes les factures reçues !<p>
     <a href="https://www.metrokelly.ca/"><img class="img-fluid" src="images/concoursete/metrokelly.jpg" alt="" width="50%"></a><p>
     <h4>Metro kelly </h4>
     Visitez le site web de Metro kelly   : <a href="https://www.metrokelly.ca/">www.metrokelly.ca</a>
-
-    <hr>
-    <br>
-    <a href="https://www.byebyemoving.com"><img class="img-fluid" src="images/concoursete/byebye.jpg" alt="" width="50%"></a><p>
-    <h4>Déménagement Bye Bye</h4>
-    Visitez le site web de Déménagement Bye Bye   : <a href="https://www.byebyemoving.com">www.byebyemoving.com</a>
 
 
     <hr>
