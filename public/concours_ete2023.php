@@ -293,7 +293,7 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
-      <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab"><img class="img-fluid" src="images/concoursete/LOGO FAMILIPRIX.CANTLEY.png" alt="" width="250px"></a><p>
+      <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab"><img class="img-fluid" src="images/concoursete/LOGO FAMILIPRIX.CANTLEY.png" alt="" width="156px"></a><p>
       <h4>Familiprix</h4>
       Visitez le site web de Familiprix : <a href="https://www.familiprix.com/fr/pharmacies/alexandra-hache-et-danielle-tardif-dd37d636-d36f-4008-9ba0-e7eb94cbe5c4?section=lab">www.familiprix.com</a>
                  
