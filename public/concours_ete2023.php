@@ -312,8 +312,8 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
       <hr>
       <br>
       <a href="https://plomberieoutaouais.com"><img class="img-fluid" src="images/concoursete/plomberieoutaouais.jpg" alt="" width="50%"></a><p>
-      <h4>Groupe Plomberie Outaouais</h4>
-      Visitez le site web de Groupe Plomberie Outaouais   : <a href="https://plomberieoutaouais.com">"plomberieoutaouais.com"</a>
+      <h4>Groupe Plomberie Outaouais / Plomberium</h4>
+      Visitez le site web de Groupe Plomberie Outaouais / Plomberium   : <a href="https://plomberieoutaouais.com">"plomberieoutaouais.com"</a>
 
       <hr>
       <br>
