@@ -262,7 +262,7 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
-      <a href="https://www.st-hubert.com/"><img class="img-fluid" src="images/concoursete/sthubert.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.st-hubert.com/"><img class="img-fluid" src="images/concoursete/st-hubert.jpg" alt="" width="50%"></a><p>
       <h4>St-Hubert</h4>
       Visitez le site web de St-Hubert : <a href="https://www.st-hubert.com/">www.st-hubert.com</a>
 
