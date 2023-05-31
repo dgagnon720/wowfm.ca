@@ -323,25 +323,25 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
-      <a href="https://www.argusmazda.com/"><img class="img-fluid" src="images/concoursete/argusmazda.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.argusmazda.com/"><img class="img-fluid" src="images/concoursete/argus.jpg" alt="" width="50%"></a><p>
       <h4>Argus Mazda</h4>
       Visitez le site web de Argus Mazda : <a href="https://www.argusmazda.com/">www.argusmazda.com </a>
 
       <hr>
       <br>
-      <a href="https://www.gatineauhonda.com/"><img class="img-fluid" src="images/concoursete/gatineauhonda.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.gatineauhonda.com/"><img class="img-fluid" src="images/concoursete/gatineauHonda.jpg" alt="" width="50%"></a><p>
       <h4>Gatineau Honda</h4>
       Visitez le site web de Gatineau Honda : <a href="https://www.gatineauhonda.com/">www.gatineauhonda.com </a>
 
       <hr>
       <br>
-      <a href="https://www.aylmerkia.com/"><img class="img-fluid" src="images/concoursete/aylmerkia.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.aylmerkia.com/"><img class="img-fluid" src="images/concoursete/kia2.jpg" alt="" width="50%"></a><p>
       <h4>Aylmer Kia</h4>
       Visitez le site web de Aylmer Kia : <a href="https://www.aylmerkia.com/">www.aylmerkia.com </a>
 
       <hr>
       <br>
-      <a href="https://www.gatineaukia.com/"><img class="img-fluid" src="images/concoursete/gatineaukia.jpg" alt="" width="50%"></a><p>
+      <a href="https://www.gatineaukia.com/"><img class="img-fluid" src="images/concoursete/gatineauKia2.jpg" alt="" width="50%"></a><p>
       <h4>Gatineau Kia</h4>
       Visitez le site web de Gatineau Kia : <a href="https://www.gatineaukia.com/">www.gatineaukia.com </a>
 
@@ -353,7 +353,7 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
-      <a href="https://boutiquetoietmoi.ca/"><img class="img-fluid" src="images/concoursete/boutiquetoietmoi.jpg" alt="" width="50%"></a><p>
+      <a href="https://boutiquetoietmoi.ca/"><img class="img-fluid" src="images/concoursete/toietmoi.jpg" alt="" width="50%"></a><p>
       <h4>Boutique Toi et Moi</h4>
       Visitez le site web de Boutique Toi et Moi : <a href="https://boutiquetoietmoi.ca/">boutiquetoietmoi.ca</a>
 
