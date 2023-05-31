@@ -281,7 +281,7 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
 
       <hr>
       <br>
-      <a href="http://www.cuisinesmultidesign.com"><img class="img-fluid" src="images/concoursete/cuisinemutlidesign.jpg" alt="" width="50%"></a><p>
+      <a href="http://www.cuisinesmultidesign.com"><img class="img-fluid" src="images/concoursete/cuisinesmultidesign.jpg" alt="" width="50%"></a><p>
       <h4>Cuisine Multi-Design</h4>
       Visitez le site web de Cuisine Multi-Design : <a href="http://www.cuisinesmultidesign.com">www.cuisinesmultidesign.com</a>
 
