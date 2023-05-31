@@ -357,6 +357,11 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
       <h4>Boutique Toi et Moi</h4>
       Visitez le site web de Boutique Toi et Moi : <a href="https://boutiquetoietmoi.ca/">boutiquetoietmoi.ca</a>
 
+      <hr>
+      <br>
+      <a href="https://www.iga.net/fr/recherche_de_magasin/magasin/8520-iga-extra-des-grives"><img class="img-fluid" src="images/concoursete/igaextradesgrives.jpg" alt="" width="50%"></a><p>
+      <h4>IGA extra des Grives Famille Grenier-Fortin </h4>
+      Visitez le site web de IGA extra des Grives Famille Grenier-Fortin : <a href="https://www.iga.net/fr/recherche_de_magasin/magasin/8520-iga-extra-des-grives">www.iga.net </a>
 
     </span>  
 <!--
