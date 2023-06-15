@@ -356,6 +356,12 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
       <a href="https://www.iga.net/fr/recherche_de_magasin/magasin/8520-iga-extra-des-grives"><img class="img-fluid" src="images/concoursete/igaextradesgrives.jpg" alt="" width="50%"></a><p>
       <h4>IGA extra des Grives Famille Grenier-Fortin </h4>
       Visitez le site web de IGA extra des Grives Famille Grenier-Fortin : <a href="https://www.iga.net/fr/recherche_de_magasin/magasin/8520-iga-extra-des-grives">www.iga.net </a>
+      
+      <hr>
+      <br>
+      <a href="https://groupepronature.ca/"><img class="img-fluid" src="images/concoursete/pronature.jpg" alt="" width="50%"></a><p>
+      <h4>Pronature CO-OP de Gracefield </h4>
+      Visitez le site web de Pronature CO-OP de Gracefield : <a href="https://groupepronature.ca/">groupepronature.ca </a>
 
     </span>  
 <!--
