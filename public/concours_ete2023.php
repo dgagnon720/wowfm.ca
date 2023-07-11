@@ -266,13 +266,13 @@ Nous rembourserons jusqu’à 500$ chaque semaine !
       <h4>St-Hubert</h4>
       Visitez le site web de St-Hubert : <a href="https://www.st-hubert.com/">www.st-hubert.com</a>
 
-
+<!--
       <hr>
       <br>
       <a href="https://transportbond.ca/"><img class="img-fluid" src="images/concoursete/transportbond.jpg" alt="" width="50%"></a><p>
       <h4>Transport Bond</h4>
       Visitez le site web de Transport Bond : <a href="https://transportbond.ca/">transportbond.ca</a>
-
+-->
       <hr>
       <br>
       <a href="https://entreprisepcharlebois.com/"><img class="img-fluid" src="images/concoursete/entreprisepcharlebois.jpg" alt="" width="50%"></a><p>
